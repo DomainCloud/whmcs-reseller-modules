@@ -16,4 +16,5 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  **/
 
-$upload_path = "";
+$upload_path = "/home/reseller/documentupload/"; # This is sample only. Please change it to your upload path.
+$api_endpoint = "";
