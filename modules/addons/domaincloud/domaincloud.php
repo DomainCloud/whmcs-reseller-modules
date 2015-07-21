@@ -304,7 +304,6 @@ function domaincloud_output($vars) {
                 if ($domain_status == 3) {
                     if ($rows['type'] == 'Register') {
                         $result_epp = RegRegisterDomain($params);
-                        var_dump($result_epp);die;
                     } elseif ($rows['type'] == 'Transfer') {
                         $params['transfersecret'] = $rows['transfersecret'];
                         $result_epp = RegTransferDomain($params);
