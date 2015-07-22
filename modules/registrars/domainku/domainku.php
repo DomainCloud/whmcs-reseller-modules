@@ -126,7 +126,8 @@ function domainku_RequestDelete($params) {
 }
 
 function _api_process($params, $command) {
-	require_once "config.php";
+	
+	require_once ROOTDIR . "/dcconfig.php";
 	$config = getregistrarconfigoptions('domainku');
 
 	# Check if module parameters are sane

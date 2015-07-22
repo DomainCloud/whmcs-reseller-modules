@@ -33,6 +33,7 @@ if (!defined("WHMCS"))
     die("This file cannot be accessed directly");
 
 function domaincloud_config() {
+
     $configarray = array(
     "name" => "DomainCloud Document Management",
     "description" => "Document Management",
@@ -42,6 +43,7 @@ function domaincloud_config() {
     "fields" => array());
 
     return $configarray;
+    
 }
 
 function domaincloud_activate() {
@@ -83,6 +85,7 @@ function domaincloud_deactivate() {
 }
 
 function domaincloud_output($vars) {
+    
     require_once "config.php";
 
     $uid = (isset($_REQUEST['userid']) ? $_REQUEST['userid'] : "");
