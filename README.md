@@ -9,7 +9,11 @@ Tested on | WHMCS 5.3
 License | GPLv2 or later
 License URI | http://www.gnu.org/licenses/gpl-2.0.html
 
-### Installation notes
+### Installation
+
+If you have any troubles during installation please contact us at registrar[at]isi.co.id.
+
+### Setting up the reseller modules
 
 1. Put reseller files and folders to your WHMCS system path (e.g: `/var/www/html`).
 2. Activate domainku registrar module and document management addon on your WHMCS system.
