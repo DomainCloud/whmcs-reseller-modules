@@ -17,7 +17,7 @@
  **/
 
 date_default_timezone_set('Asia/Jakarta');
-require_once "../includes/domainku_api.php";
+require_once "../includes/domainkufunctions.php";
 require_once "../includes/registrarfunctions.php";
 require_once "../modules/registrars/domainku/domainku.php";
 
