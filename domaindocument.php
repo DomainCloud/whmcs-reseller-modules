@@ -47,8 +47,8 @@ $availabilityresults = array();
 $search_tlds = array();
 $tldslist = array();
 
-$client = new WHMCS_Client(WHMCS_Session::get("uid"));
-$uid = $client->getID();
+$client = new WHMCS_ClientArea();
+$uid = $client->getUserID();
 $currencyid = (isset($_SESSION['currency']) ? $_SESSION['currency'] : "");
 $currency = getCurrency($uid, $currencyid);
 $smartyvalues['currency'] = $currency;
